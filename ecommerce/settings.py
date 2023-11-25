@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-xav!@g#b!^vbaz0$)0crj@u&02ycg)dm5rfdwtd7gnr6#vgnbi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [""]
 
 
 # Application definition
@@ -133,6 +133,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-PAYPAL_RECEIVER_EMAIL = 'hishamface@gmail.com'
-PAYPAL_TEST = True
+
 # PAYPAL_BUY_BUTTON_IMAGE = "https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
